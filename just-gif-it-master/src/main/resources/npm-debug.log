@@ -1,0 +1,215 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\training\\Spring Cloud Microservices Mulesoft\\demos\\just-gif-it-master\\target\\node\\node.exe',
+1 verbose cli   'D:\\training\\Spring Cloud Microservices Mulesoft\\demos\\just-gif-it-master\\target\\node\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.7.2
+3 info using node@v4.3.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData angular
+20 silly mapToRegistry name angular
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry http://registry.npmjs.org/
+23 silly mapToRegistry uri http://registry.npmjs.org/angular
+24 silly fetchNamedPackageData angular-loading-bar
+25 silly mapToRegistry name angular-loading-bar
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry http://registry.npmjs.org/
+28 silly mapToRegistry uri http://registry.npmjs.org/angular-loading-bar
+29 silly fetchNamedPackageData angular-ui-router
+30 silly mapToRegistry name angular-ui-router
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry http://registry.npmjs.org/
+33 silly mapToRegistry uri http://registry.npmjs.org/angular-ui-router
+34 silly fetchNamedPackageData bootstrap
+35 silly mapToRegistry name bootstrap
+36 silly mapToRegistry using default registry
+37 silly mapToRegistry registry http://registry.npmjs.org/
+38 silly mapToRegistry uri http://registry.npmjs.org/bootstrap
+39 silly fetchNamedPackageData ng-file-upload
+40 silly mapToRegistry name ng-file-upload
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry http://registry.npmjs.org/
+43 silly mapToRegistry uri http://registry.npmjs.org/ng-file-upload
+44 verbose request uri http://registry.npmjs.org/angular-loading-bar
+45 verbose request no auth needed
+46 info attempt registry request try #1 at 10:31:56 PM
+47 verbose request id a4c7af445942627a
+48 http request GET http://registry.npmjs.org/angular-loading-bar
+49 verbose request uri http://registry.npmjs.org/angular-ui-router
+50 verbose request no auth needed
+51 info attempt registry request try #1 at 10:31:56 PM
+52 http request GET http://registry.npmjs.org/angular-ui-router
+53 verbose request uri http://registry.npmjs.org/angular
+54 verbose request no auth needed
+55 info attempt registry request try #1 at 10:31:56 PM
+56 http request GET http://registry.npmjs.org/angular
+57 verbose request uri http://registry.npmjs.org/ng-file-upload
+58 verbose request no auth needed
+59 info attempt registry request try #1 at 10:31:56 PM
+60 http request GET http://registry.npmjs.org/ng-file-upload
+61 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND inpunwbs02-wcg.corp.capgemini.com inpunwbs02-wcg.corp.capgemini.com:8080
+62 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND inpunwbs02-wcg.corp.capgemini.com inpunwbs02-wcg.corp.capgemini.com:8080
+63 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND inpunwbs02-wcg.corp.capgemini.com inpunwbs02-wcg.corp.capgemini.com:8080
+64 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND inpunwbs02-wcg.corp.capgemini.com inpunwbs02-wcg.corp.capgemini.com:8080
+65 verbose request uri http://registry.npmjs.org/bootstrap
+66 verbose request no auth needed
+67 info attempt registry request try #1 at 10:32:05 PM
+68 verbose etag W/"59c6c38d-e350"
+69 verbose lastModified Sat, 23 Sep 2017 20:26:53 GMT
+70 http request GET http://registry.npmjs.org/bootstrap
+71 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND inpunwbs02-wcg.corp.capgemini.com inpunwbs02-wcg.corp.capgemini.com:8080
+72 info attempt registry request try #2 at 10:32:15 PM
+73 http request GET http://registry.npmjs.org/angular-loading-bar
+74 info attempt registry request try #2 at 10:32:15 PM
+75 http request GET http://registry.npmjs.org/angular-ui-router
+76 info attempt registry request try #2 at 10:32:15 PM
+77 http request GET http://registry.npmjs.org/ng-file-upload
+78 info attempt registry request try #2 at 10:32:15 PM
+79 http request GET http://registry.npmjs.org/angular
+80 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND inpunwbs02-wcg.corp.capgemini.com inpunwbs02-wcg.corp.capgemini.com:8080
+81 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND inpunwbs02-wcg.corp.capgemini.com inpunwbs02-wcg.corp.capgemini.com:8080
+82 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND inpunwbs02-wcg.corp.capgemini.com inpunwbs02-wcg.corp.capgemini.com:8080
+83 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND inpunwbs02-wcg.corp.capgemini.com inpunwbs02-wcg.corp.capgemini.com:8080
+84 info attempt registry request try #2 at 10:32:15 PM
+85 verbose etag W/"59c6c38d-e350"
+86 verbose lastModified Sat, 23 Sep 2017 20:26:53 GMT
+87 http request GET http://registry.npmjs.org/bootstrap
+88 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND inpunwbs02-wcg.corp.capgemini.com inpunwbs02-wcg.corp.capgemini.com:8080
+89 info attempt registry request try #3 at 10:33:15 PM
+90 http request GET http://registry.npmjs.org/angular-loading-bar
+91 info attempt registry request try #3 at 10:33:15 PM
+92 http request GET http://registry.npmjs.org/angular-ui-router
+93 info attempt registry request try #3 at 10:33:15 PM
+94 http request GET http://registry.npmjs.org/ng-file-upload
+95 info attempt registry request try #3 at 10:33:15 PM
+96 http request GET http://registry.npmjs.org/angular
+97 info attempt registry request try #3 at 10:33:15 PM
+98 verbose etag W/"59c6c38d-e350"
+99 verbose lastModified Sat, 23 Sep 2017 20:26:53 GMT
+100 http request GET http://registry.npmjs.org/bootstrap
+101 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND inpunwbs02-wcg.corp.capgemini.com inpunwbs02-wcg.corp.capgemini.com:8080
+101 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+101 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+101 silly fetchPackageMetaData  error for angular-loading-bar@^0.8.0 { [Error: getaddrinfo ENOTFOUND inpunwbs02-wcg.corp.capgemini.com inpunwbs02-wcg.corp.capgemini.com:8080]
+101 silly fetchPackageMetaData   code: 'ENOTFOUND',
+101 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+101 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+101 silly fetchPackageMetaData   hostname: 'inpunwbs02-wcg.corp.capgemini.com',
+101 silly fetchPackageMetaData   host: 'inpunwbs02-wcg.corp.capgemini.com',
+101 silly fetchPackageMetaData   port: '8080' }
+102 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND inpunwbs02-wcg.corp.capgemini.com inpunwbs02-wcg.corp.capgemini.com:8080
+102 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+102 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+102 silly fetchPackageMetaData  error for angular@^1.4.9 { [Error: getaddrinfo ENOTFOUND inpunwbs02-wcg.corp.capgemini.com inpunwbs02-wcg.corp.capgemini.com:8080]
+102 silly fetchPackageMetaData   code: 'ENOTFOUND',
+102 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+102 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+102 silly fetchPackageMetaData   hostname: 'inpunwbs02-wcg.corp.capgemini.com',
+102 silly fetchPackageMetaData   host: 'inpunwbs02-wcg.corp.capgemini.com',
+102 silly fetchPackageMetaData   port: '8080' }
+103 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND inpunwbs02-wcg.corp.capgemini.com inpunwbs02-wcg.corp.capgemini.com:8080
+103 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+103 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+103 silly fetchPackageMetaData  error for ng-file-upload@^11.2.3 { [Error: getaddrinfo ENOTFOUND inpunwbs02-wcg.corp.capgemini.com inpunwbs02-wcg.corp.capgemini.com:8080]
+103 silly fetchPackageMetaData   code: 'ENOTFOUND',
+103 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+103 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+103 silly fetchPackageMetaData   hostname: 'inpunwbs02-wcg.corp.capgemini.com',
+103 silly fetchPackageMetaData   host: 'inpunwbs02-wcg.corp.capgemini.com',
+103 silly fetchPackageMetaData   port: '8080' }
+104 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND inpunwbs02-wcg.corp.capgemini.com inpunwbs02-wcg.corp.capgemini.com:8080
+104 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+104 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+104 silly fetchPackageMetaData  error for angular-ui-router@^0.2.18 { [Error: getaddrinfo ENOTFOUND inpunwbs02-wcg.corp.capgemini.com inpunwbs02-wcg.corp.capgemini.com:8080]
+104 silly fetchPackageMetaData   code: 'ENOTFOUND',
+104 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+104 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+104 silly fetchPackageMetaData   hostname: 'inpunwbs02-wcg.corp.capgemini.com',
+104 silly fetchPackageMetaData   host: 'inpunwbs02-wcg.corp.capgemini.com',
+104 silly fetchPackageMetaData   port: '8080' }
+105 silly get cb [ 304, undefined ]
+106 verbose etag http://registry.npmjs.org/bootstrap from cache
+107 verbose get saving bootstrap to C:\Users\abghode\AppData\Roaming\npm-cache\registry.npmjs.org\bootstrap\.cache.json
+108 verbose correctMkdir C:\Users\abghode\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+109 silly resolveWithNewModule bootstrap@3.3.7 checking installable status
+110 silly cache add args [ 'bootstrap@^3.3.6', null ]
+111 verbose cache add spec bootstrap@^3.3.6
+112 silly cache add parsed spec Result {
+112 silly cache add   raw: 'bootstrap@^3.3.6',
+112 silly cache add   scope: null,
+112 silly cache add   name: 'bootstrap',
+112 silly cache add   rawSpec: '^3.3.6',
+112 silly cache add   spec: '>=3.3.6 <4.0.0',
+112 silly cache add   type: 'range' }
+113 silly addNamed bootstrap@>=3.3.6 <4.0.0
+114 verbose addNamed ">=3.3.6 <4.0.0" is a valid semver range for bootstrap
+115 silly addNameRange { name: 'bootstrap', range: '>=3.3.6 <4.0.0', hasData: false }
+116 silly mapToRegistry name bootstrap
+117 silly mapToRegistry using default registry
+118 silly mapToRegistry registry http://registry.npmjs.org/
+119 silly mapToRegistry uri http://registry.npmjs.org/bootstrap
+120 verbose addNameRange registry:http://registry.npmjs.org/bootstrap not in flight; fetching
+121 verbose get http://registry.npmjs.org/bootstrap not expired, no request
+122 silly addNameRange number 2 { name: 'bootstrap', range: '>=3.3.6 <4.0.0', hasData: true }
+123 silly addNameRange versions [ 'bootstrap',
+123 silly addNameRange   [ '0.0.1',
+123 silly addNameRange     '0.0.2',
+123 silly addNameRange     '3.1.1',
+123 silly addNameRange     '3.2.0',
+123 silly addNameRange     '3.3.0',
+123 silly addNameRange     '3.3.1',
+123 silly addNameRange     '3.3.2',
+123 silly addNameRange     '3.3.4',
+123 silly addNameRange     '3.3.5',
+123 silly addNameRange     '3.3.6',
+123 silly addNameRange     '4.0.0-alpha.2',
+123 silly addNameRange     '3.3.7',
+123 silly addNameRange     '4.0.0-alpha.3',
+123 silly addNameRange     '4.0.0-alpha.4',
+123 silly addNameRange     '4.0.0-alpha.5',
+123 silly addNameRange     '4.0.0-alpha.6',
+123 silly addNameRange     '4.0.0-beta' ] ]
+124 silly addNamed bootstrap@3.3.7
+125 verbose addNamed "3.3.7" is a plain semver version for bootstrap
+126 silly cache afterAdd bootstrap@3.3.7
+127 verbose afterAdd C:\Users\abghode\AppData\Roaming\npm-cache\bootstrap\3.3.7\package\package.json not in flight; writing
+128 verbose correctMkdir C:\Users\abghode\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+129 verbose afterAdd C:\Users\abghode\AppData\Roaming\npm-cache\bootstrap\3.3.7\package\package.json written
+130 silly rollbackFailedOptional Starting
+131 silly rollbackFailedOptional Finishing
+132 silly runTopLevelLifecycles Starting
+133 silly runTopLevelLifecycles Finishing
+134 silly install printInstalled
+135 verbose stack Error: getaddrinfo ENOTFOUND inpunwbs02-wcg.corp.capgemini.com inpunwbs02-wcg.corp.capgemini.com:8080
+135 verbose stack     at errnoException (dns.js:26:10)
+135 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+136 verbose cwd D:\training\Spring Cloud Microservices Mulesoft\demos\just-gif-it-master\src\main\resources
+137 error Windows_NT 6.1.7601
+138 error argv "D:\\training\\Spring Cloud Microservices Mulesoft\\demos\\just-gif-it-master\\target\\node\\node.exe" "D:\\training\\Spring Cloud Microservices Mulesoft\\demos\\just-gif-it-master\\target\\node\\node_modules\\npm\\bin\\npm-cli.js" "install"
+139 error node v4.3.0
+140 error npm  v3.7.2
+141 error code ENOTFOUND
+142 error errno ENOTFOUND
+143 error syscall getaddrinfo
+144 error network getaddrinfo ENOTFOUND inpunwbs02-wcg.corp.capgemini.com inpunwbs02-wcg.corp.capgemini.com:8080
+145 error network This is most likely not a problem with npm itself
+145 error network and is related to network connectivity.
+145 error network In most cases you are behind a proxy or have bad network settings.
+145 error network
+145 error network If you are behind a proxy, please make sure that the
+145 error network 'proxy' config is set properly.  See: 'npm help config'
+146 verbose exit [ 1, true ]
